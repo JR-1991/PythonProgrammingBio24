@@ -1,0 +1,22 @@
+site_name: Python Programming in Biology and Chemistry
+theme:
+  name: material
+  repo_url: https://github.com/JR-1991/PythonProgrammingBio24
+  repo_name: PythonProgrammingBio24
+  icon:
+    repo: fontawesome/brands/git-alt
+  features:
+    - navigation.sections
+    - navigation.expand
+  palette:
+    - primary: pink
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
