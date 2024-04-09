@@ -1,3 +1,0 @@
-# Session 1 - Python Basic
-
-to be added later ...
