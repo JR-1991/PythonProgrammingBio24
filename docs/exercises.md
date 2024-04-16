@@ -8,7 +8,7 @@ In the following you will find an overview of all exercises, including a brief d
 
 ### 1. Python Basics
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise001.ipynb)
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise001.ipynb) [![](https://img.shields.io/badge/Go_to-solution-blue)](https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise001/)
 
 The tasks in this exercise cover basic Python concepts such as variables, data types, and control structures. You will practice working with numbers, strings, lists, and dictionaries. As an additional exercise you will be asked to write and read files.
 
