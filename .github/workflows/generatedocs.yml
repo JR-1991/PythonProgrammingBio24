@@ -21,8 +21,10 @@ jobs:
           path: .cache
           key: ${{ github.ref }}
       - run: pip install mkdocs-material jupyter nbconvert mkdocs-jupyter
-      - name: Convert all notebooks to markdown
+      - name: Copy notebooks to docs
         run: |
+          mkdir -p docs/notes
+          mkdir -p docs/solutions
           cp notebooks/*.ipynb ./docs/notes
           cp solutions/*.ipynb ./docs/solutions
       - run: mkdocs gh-deploy --force
