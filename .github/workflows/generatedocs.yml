@@ -23,6 +23,6 @@ jobs:
       - run: pip install mkdocs-material jupyter nbconvert mkdocs-jupyter
       - name: Convert all notebooks to markdown
         run: |
-          cp notebooks/*.ipynb docs/notes
-          cp solutions/*.ipynb docs/solutions
+          cp notebooks/*.ipynb ./docs/notes
+          cp solutions/*.ipynb ./docs/solutions
       - run: mkdocs gh-deploy --force
