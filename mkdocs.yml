@@ -1,4 +1,6 @@
 site_name: Python Programming in Biology and Chemistry
+plugins:
+  - mkdocs-jupyter
 theme:
   name: material
   repo_url: https://github.com/JR-1991/PythonProgrammingBio24
