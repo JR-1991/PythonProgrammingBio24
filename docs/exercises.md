@@ -17,3 +17,9 @@ The tasks in this exercise cover basic Python concepts such as variables, data t
 [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise002.ipynb) [![](https://img.shields.io/badge/Go_to_solution-blue)](https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise002/)
 
 The tasks in this exercise cover reading and writing files. You will practice the concepts of file handling and parsing on the example of FASTA files. Here it is asked to read three FASTA files and collect all sequences in a new FASTA file.
+
+### 3. Extracting properties and translating sequences
+
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise002.ipynb)
+
+The tasks in this exercise cover the extraction of properties and the translation of sequences. You will practice the concepts of string manipulation and translation of DNA sequences into proteins. Here it is asked to extract the length and GC content of a DNA sequence and to translate it into a protein sequence.
