@@ -20,6 +20,6 @@ The tasks in this exercise cover reading and writing files. You will practice th
 
 ### 3. Extracting properties and translating sequences
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise002.ipynb)
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise003.ipynb)
 
 The tasks in this exercise cover the extraction of properties and the translation of sequences. You will practice the concepts of string manipulation and translation of DNA sequences into proteins. Here it is asked to extract the length and GC content of a DNA sequence and to translate it into a protein sequence.
