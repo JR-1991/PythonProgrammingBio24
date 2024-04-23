@@ -14,6 +14,6 @@ The tasks in this exercise cover basic Python concepts such as variables, data t
 
 ### 2. Reading and writing of files
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise002.ipynb)
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise002.ipynb) [![](https://img.shields.io/badge/Go_to_solution-blue)](https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise002/)
 
 The tasks in this exercise cover reading and writing files. You will practice the concepts of file handling and parsing on the example of FASTA files. Here it is asked to read three FASTA files and collect all sequences in a new FASTA file.
