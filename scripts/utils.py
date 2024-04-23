@@ -84,28 +84,3 @@ def to_triplets(sequence: str) -> list[str]:
     """
 
     return textwrap.wrap(sequence, 3)
-
-
-def triplet_to_aa(triplet: str) -> str:
-    """Convert a triplet to an amino acid.
-
-    Example:
-
-        >> triplet_to_aa("ATG")
-        'M'
-
-    Args:
-        triplet (str): Triplet of nucleotides.
-
-    Returns:
-        str: Amino acid.
-
-    Raises:
-        AssertionError: If the triplet is not in the codon table.
-        AsseertionError: If the triplet does not have length 3.
-    """
-
-    assert len(triplet) == 3, "Triplet must have length 3."
-    assert triplet in CODON_TABLE, f"Triplet {triplet} not found in codon table."
-
-    return CODON_TABLE[triplet]
