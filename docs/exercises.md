@@ -23,3 +23,9 @@ The tasks in this exercise cover reading and writing files. You will practice th
 [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise003.ipynb) [![](https://img.shields.io/badge/Go_to_solution-blue)](https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise003/)
 
 The tasks in this exercise cover the extraction of properties and the translation of sequences. You will practice the concepts of string manipulation and translation of DNA sequences into proteins. Here it is asked to extract the length and GC content of a DNA sequence and to translate it into a protein sequence.
+
+### 4. Data visualisation
+
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise004.ipynb)
+
+The tasks in this exercise cover data visualisation. You will practice the concepts of data visualisation using the Python library Matplotlib and Seaborn. Here it is asked to visualise the GC content and other features of a DNA sequence using different plots. In addition, you will be asked to use Principal Component Analysis (PCA) to visualise a multidimensional dataset.
