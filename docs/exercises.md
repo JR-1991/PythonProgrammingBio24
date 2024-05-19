@@ -29,3 +29,9 @@ The tasks in this exercise cover the extraction of properties and the translatio
 [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise004.ipynb) [![](https://img.shields.io/badge/Go_to_solution-blue)](https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise004/)
 
 The tasks in this exercise cover data visualisation. You will practice the concepts of data visualisation using the Python library Matplotlib and Seaborn. Here it is asked to visualise the GC content and other features of a DNA sequence using different plots. In addition, you will be asked to use Principal Component Analysis (PCA) to visualise a multidimensional dataset.
+
+### 5. Data clustering
+
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise005.ipynb)
+
+The tasks in this exercise cover data clustering. You will practice the concepts of data clustering using the Python library Scikit-learn. Here it is asked to cluster a dataset of features extracted from DNA sequences using the K-means algorithm. In addition, you will be asked to implement the K-means algorithm from scratch.
