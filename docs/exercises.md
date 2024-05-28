@@ -32,6 +32,6 @@ The tasks in this exercise cover data visualisation. You will practice the conce
 
 ### 5. Data clustering
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise005.ipynb)
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise005.ipynb) [![](https://img.shields.io/badge/Go_to_solution-blue)](https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise005/)
 
 The tasks in this exercise cover data clustering. You will practice the concepts of data clustering using the Python library Scikit-learn. Here it is asked to cluster a dataset of features extracted from DNA sequences using the K-means algorithm. In addition, you will be asked to implement the K-means algorithm from scratch.
