@@ -38,6 +38,6 @@ The tasks in this exercise cover data clustering. You will practice the concepts
 
 ### 6. Object-oriented programming
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise006.ipynb)
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise006.ipynb) [![](https://img.shields.io/badge/Go_to_solution-blue)](https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise006/)
 
 The tasks in this exercise cover object-oriented programming. You will practice the concepts of classes and objects in Python. Here it is asked to implement a class for DNA sequences and to create objects of this class to perform different operations.
