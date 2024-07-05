@@ -50,6 +50,6 @@ The tasks in this exercise cover extending classes by methods. You will extend y
 
 ### 8. Inheritance
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise007.ipynb)
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise008.ipynb)
 
 The tasks in this exercise cover inheritance. You will practice the concepts of inheritance in Python. Here it is asked to implement a parent class for Protein sequences and DNA sequences to unify common properties and methods. Subsequently, you will be asked to create objects of the child classes and to perform different operations.
