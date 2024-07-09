@@ -1,0 +1,1001 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../projects/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
+    
+    
+      
+        <title>Exercises - Python Programming in Biology and Chemistry</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#exercises" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Python Programming in Biology and Chemistry" class="md-header__button md-logo" aria-label="Python Programming in Biology and Chemistry" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Python Programming in Biology and Chemistry
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Exercises
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Python Programming in Biology and Chemistry" class="md-nav__button md-logo" aria-label="Python Programming in Biology and Chemistry" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Python Programming in Biology and Chemistry
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Exercises
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Exercises
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table of Contents
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Table of Contents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-python-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Python Basics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-reading-and-writing-of-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Reading and writing of files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-extracting-properties-and-translating-sequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Extracting properties and translating sequences
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-data-visualisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Data visualisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-data-clustering" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Data clustering
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-object-oriented-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Object-oriented programming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-extending-classes-by-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Extending classes by methods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-inheritance" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Inheritance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    My own project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Notes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Notes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/Seminar_001/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seminar 001: Python fundamentals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/Seminar_002/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seminar 002: Clean code and using data structures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/Seminar_003/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seminar 003: Functions in Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/Seminar_004/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seminar 004: Native functions and visualisation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/Seminar_005/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seminar 005: Working with Pandas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/Seminar_006/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seminar 006: Object-Oriented Programming
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/Seminar_007/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Seminar 007: Extending Methods
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Solutions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Solutions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solutions/Exercise001/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise 001
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solutions/Exercise002/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise 002
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solutions/Exercise003/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise 003
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solutions/Exercise004/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise 004
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solutions/Exercise005/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise 005
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solutions/Exercise006/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise 006
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solutions/Exercise007/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise 007
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solutions/Exercise008/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise 008
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table of Contents
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Table of Contents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-python-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Python Basics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-reading-and-writing-of-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Reading and writing of files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-extracting-properties-and-translating-sequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Extracting properties and translating sequences
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-data-visualisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Data visualisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-data-clustering" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Data clustering
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-object-oriented-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Object-oriented programming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-extending-classes-by-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Extending classes by methods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-inheritance" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Inheritance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="exercises">Exercises</h1>
+<p>Welcome to the exercises! These exercises are designed to help you practice and improve your Python skills. Each exercise includes a description, an example, and a task to complete.</p>
+<p>In the following you will find an overview of all exercises, including a brief description and the link to the dedicated Google Colab.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<h3 id="1-python-basics">1. Python Basics</h3>
+<p><a href="https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise001.ipynb"><img alt="" src="https://colab.research.google.com/assets/colab-badge.svg" /></a> <a href="https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise001/"><img alt="" src="https://img.shields.io/badge/Go_to_solution-blue" /></a></p>
+<p>The tasks in this exercise cover basic Python concepts such as variables, data types, and control structures. You will practice working with numbers, strings, lists, and dictionaries. As an additional exercise you will be asked to write and read files.</p>
+<h3 id="2-reading-and-writing-of-files">2. Reading and writing of files</h3>
+<p><a href="https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise002.ipynb"><img alt="" src="https://colab.research.google.com/assets/colab-badge.svg" /></a> <a href="https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise002/"><img alt="" src="https://img.shields.io/badge/Go_to_solution-blue" /></a></p>
+<p>The tasks in this exercise cover reading and writing files. You will practice the concepts of file handling and parsing on the example of FASTA files. Here it is asked to read three FASTA files and collect all sequences in a new FASTA file.</p>
+<h3 id="3-extracting-properties-and-translating-sequences">3. Extracting properties and translating sequences</h3>
+<p><a href="https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise003.ipynb"><img alt="" src="https://colab.research.google.com/assets/colab-badge.svg" /></a> <a href="https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise003/"><img alt="" src="https://img.shields.io/badge/Go_to_solution-blue" /></a></p>
+<p>The tasks in this exercise cover the extraction of properties and the translation of sequences. You will practice the concepts of string manipulation and translation of DNA sequences into proteins. Here it is asked to extract the length and GC content of a DNA sequence and to translate it into a protein sequence.</p>
+<h3 id="4-data-visualisation">4. Data visualisation</h3>
+<p><a href="https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise004.ipynb"><img alt="" src="https://colab.research.google.com/assets/colab-badge.svg" /></a> <a href="https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise004/"><img alt="" src="https://img.shields.io/badge/Go_to_solution-blue" /></a></p>
+<p>The tasks in this exercise cover data visualisation. You will practice the concepts of data visualisation using the Python library Matplotlib and Seaborn. Here it is asked to visualise the GC content and other features of a DNA sequence using different plots. In addition, you will be asked to use Principal Component Analysis (PCA) to visualise a multidimensional dataset.</p>
+<h3 id="5-data-clustering">5. Data clustering</h3>
+<p><a href="https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise005.ipynb"><img alt="" src="https://colab.research.google.com/assets/colab-badge.svg" /></a> <a href="https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise005/"><img alt="" src="https://img.shields.io/badge/Go_to_solution-blue" /></a></p>
+<p>The tasks in this exercise cover data clustering. You will practice the concepts of data clustering using the Python library Scikit-learn. Here it is asked to cluster a dataset of features extracted from DNA sequences using the K-means algorithm. In addition, you will be asked to implement the K-means algorithm from scratch.</p>
+<h3 id="6-object-oriented-programming">6. Object-oriented programming</h3>
+<p><a href="https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise006.ipynb"><img alt="" src="https://colab.research.google.com/assets/colab-badge.svg" /></a> <a href="https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise006/"><img alt="" src="https://img.shields.io/badge/Go_to_solution-blue" /></a></p>
+<p>The tasks in this exercise cover object-oriented programming. You will practice the concepts of classes and objects in Python. Here it is asked to implement a class for DNA sequences and to create objects of this class to perform different operations.</p>
+<h3 id="7-extending-classes-by-methods">7. Extending classes by methods</h3>
+<p><a href="https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise007.ipynb"><img alt="" src="https://colab.research.google.com/assets/colab-badge.svg" /></a> <a href="https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise007/"><img alt="" src="https://img.shields.io/badge/Go_to_solution-blue" /></a></p>
+<p>The tasks in this exercise cover extending classes by methods. You will extend your class with several methods to perform different operations on DNA sequences. Here it is asked to implement methods to calculate the length, GC content, compute the reverse complement and to translate a DNA sequence into a protein sequence.</p>
+<h3 id="8-inheritance">8. Inheritance</h3>
+<p><a href="https://colab.research.google.com/github/JR-1991/PythonProgrammingBio24/blob/main/exercises/Exercise008.ipynb"><img alt="" src="https://colab.research.google.com/assets/colab-badge.svg" /></a> <a href="https://jr-1991.github.io/PythonProgrammingBio24/solutions/Exercise008/"><img alt="" src="https://img.shields.io/badge/Go_to_solution-blue" /></a></p>
+<p>The tasks in this exercise cover inheritance. You will practice the concepts of inheritance in Python. Here it is asked to implement a parent class for Protein sequences and DNA sequences to unify common properties and methods. Subsequently, you will be asked to create objects of the child classes and to perform different operations.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.expand"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
